@@ -1,0 +1,14 @@
+2024-11-11T20:59:34.419Z [32minfo[39m: Server is running on port 3500
+2024-11-11T21:03:49.763Z [32minfo[39m: Server is running on port 3500
+2024-11-11T21:11:49.336Z [32minfo[39m: Server is running on port 3500
+2024-11-11T21:18:47.110Z [32minfo[39m: Server is running on port 3500
+2024-11-11T21:18:52.318Z [32minfo[39m: Server is running on port 3500
+2024-11-11T21:18:56.600Z [32minfo[39m: Server is running on port 3500
+2024-11-11T21:19:33.980Z [32minfo[39m: Server is running on port 3500
+2024-11-11T21:20:04.158Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-11T21:21:07.276Z [32minfo[39m: Server is running on port 3500
+2024-11-11T21:21:12.537Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-11T21:23:38.094Z [32minfo[39m: Server is running on port 3500
+2024-11-11T21:23:43.295Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-11T21:26:42.445Z [32minfo[39m: Server is running on port 3500
+2024-11-11T21:26:47.671Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
