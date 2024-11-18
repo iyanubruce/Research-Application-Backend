@@ -26,3 +26,62 @@
 2024-11-12T09:40:37.174Z [32minfo[39m: Server is running on port 3500
 2024-11-12T09:43:31.480Z [32minfo[39m: Connected to MongoDB
 2024-11-12T09:43:31.486Z [32minfo[39m: Server is running on port 3500
+2024-11-13T11:29:11.626Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-13T11:31:14.705Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-13T11:33:46.817Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-13T11:37:04.107Z [32minfo[39m: Connected to MongoDB
+2024-11-13T11:37:04.122Z [32minfo[39m: Server is running on port 3500
+2024-11-13T11:41:36.252Z [32minfo[39m: Connected to MongoDB
+2024-11-13T11:41:36.257Z [32minfo[39m: Server is running on port 3500
+2024-11-13T11:47:24.107Z [32minfo[39m: Connected to MongoDB
+2024-11-13T11:47:24.118Z [32minfo[39m: Server is running on port 3500
+2024-11-13T12:06:13.292Z [32minfo[39m: Connected to MongoDB
+2024-11-13T12:06:13.309Z [32minfo[39m: Server is running on port 3500
+2024-11-13T12:33:31.428Z [32minfo[39m: Connected to MongoDB
+2024-11-13T12:33:31.433Z [32minfo[39m: Server is running on port 3500
+2024-11-13T13:18:59.164Z [32minfo[39m: Connected to MongoDB
+2024-11-13T13:18:59.193Z [32minfo[39m: Server is running on port 3500
+2024-11-15T12:34:19.129Z [32minfo[39m: REDIS CLIENT Connected
+2024-11-15T12:34:19.136Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-11-15T12:34:49.371Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-15T12:35:48.668Z [32minfo[39m: REDIS CLIENT Connected
+2024-11-15T12:35:48.676Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-11-15T12:36:18.999Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-15T12:41:15.795Z [32minfo[39m: REDIS CLIENT Connected
+2024-11-15T12:41:15.801Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-11-15T12:41:18.524Z [32minfo[39m: Connected to MongoDB
+2024-11-15T12:41:18.531Z [32minfo[39m: Server is running on port 3500
+2024-11-15T20:09:45.691Z [32minfo[39m: REDIS CLIENT Connected
+2024-11-15T20:09:45.698Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-11-15T20:09:48.782Z [32minfo[39m: Connected to MongoDB
+2024-11-15T20:09:48.797Z [32minfo[39m: Server is running on port 3500
+2024-11-15T20:16:14.005Z [32minfo[39m: REDIS CLIENT Connected
+2024-11-15T20:16:14.012Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-11-15T20:16:16.955Z [32minfo[39m: Connected to MongoDB
+2024-11-15T20:16:16.958Z [32minfo[39m: Server is running on port 3500
+2024-11-18T13:44:00.326Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T13:44:00.385Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T13:44:00.489Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T13:44:00.642Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T13:44:00.845Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T13:44:01.100Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T13:44:01.402Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T13:44:01.755Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T13:44:02.159Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T13:44:02.611Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T13:44:03.117Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T13:44:03.672Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T13:44:04.275Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T13:44:04.928Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T13:44:05.631Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T13:44:06.384Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T13:44:07.187Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T13:44:08.040Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T13:44:08.943Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T13:44:09.900Z [32minfo[39m: REDIS CLIENT Connected
+2024-11-18T13:44:09.902Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-11-18T13:44:30.583Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-18T14:31:38.796Z [32minfo[39m: REDIS CLIENT Connected
+2024-11-18T14:31:38.806Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-11-18T14:31:41.963Z [32minfo[39m: Connected to MongoDB
+2024-11-18T14:31:41.966Z [32minfo[39m: Server is running on port 3500
