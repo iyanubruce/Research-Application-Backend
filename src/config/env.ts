@@ -6,11 +6,15 @@ export default {
   application: {
     nodeEnv: process.env.NODE_ENV?.toLowerCase() || 'development',
     port: process.env.PORT || 3500,
+    sentryDsn: process.env.SENTRY_DSN,
+    bullUsername: process.env.BULL_USERNAME,
+    bullPassword: process.env.BULL_PASSWORD,
     database: {
       username: process.env.DB_USERNAME,
       password: process.env.DB_PASSWORD,
       database: process.env.DB_NAME
-    }
+    },
+    rabbitmqurl: process.env.RABBITMQ_URL || 'amqp://localhost:5672'
   },
   jwt: {
     secret: process.env.JWT_SECRET || 'secret==',

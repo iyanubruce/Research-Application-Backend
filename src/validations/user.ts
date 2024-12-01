@@ -18,7 +18,7 @@ export const createUserSchema = celebrate(
     [Segments.BODY]: Joi.object()
       .keys({
         email: string.email().required(),
-        userName: string.trim().required().max(100),
+        username: string.trim().required().max(100),
         password: passwordSchema.required()
       })
       .required()
@@ -34,6 +34,20 @@ export const loginSchema = celebrate(
       .keys({
         email: string.email().required(),
         password: string.required()
+      })
+      .required()
+  },
+  {
+    abortEarly: false
+  }
+);
+
+export const completeTwoFactorLoginSchema = celebrate(
+  {
+    [Segments.BODY]: Joi.object()
+      .keys({
+        token: string.required(),
+        code: string.required().max(6)
       })
       .required()
   },

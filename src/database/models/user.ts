@@ -1,22 +1,23 @@
 import mongoose, { Schema, Document } from 'mongoose';
 
-interface ICourse {
-  courseId: mongoose.Types.ObjectId; // Reference to a Course model
-  lastAccessed: Date; // Metadata about the course
+interface IWorks {
+  courseId: mongoose.Types.ObjectId;
+  lastAccessed: Date;
 }
 
-export interface IUser extends Document {
+export interface UserAttributes extends Document {
   username: string;
   email: string;
   password: string;
-  courses: ICourse[];
-  isAdmin: boolean;
-  verifiedEmail: boolean;
-  lastLogin: Date;
-  createdAt: Date;
+  works?: IWorks[];
+  isAdmin?: boolean;
+  verifiedEmail?: boolean;
+  status?: string;
+  lastLogin?: Date;
+  createdAt?: Date;
 }
 
-const userSchema = new Schema<IUser>(
+const userSchema = new Schema<UserAttributes>(
   {
     username: {
       type: String,
@@ -34,7 +35,7 @@ const userSchema = new Schema<IUser>(
       type: String,
       required: true
     },
-    courses: [
+    works: [
       {
         courseId: {
           type: mongoose.Schema.Types.ObjectId,
@@ -50,9 +51,14 @@ const userSchema = new Schema<IUser>(
       type: Boolean,
       default: false
     },
+    status: {
+      type: String,
+      enum: ['active', 'inactive', 'deleted'],
+      default: 'active'
+    },
     verifiedEmail: {
       type: Boolean,
-      default: false
+      default: true
     },
     lastLogin: {
       type: Date,
@@ -60,10 +66,10 @@ const userSchema = new Schema<IUser>(
     }
   },
   {
-    timestamps: true // Automatically creates `createdAt` and `updatedAt` fields
+    timestamps: true
   }
 );
 
-const User = mongoose.model<IUser>('User', userSchema);
+const User = mongoose.model<UserAttributes>('User', userSchema);
 
 export default User;

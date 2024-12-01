@@ -85,3 +85,272 @@
 2024-11-18T14:31:38.806Z [32minfo[39m: REDIS CLIENT Authenticated
 2024-11-18T14:31:41.963Z [32minfo[39m: Connected to MongoDB
 2024-11-18T14:31:41.966Z [32minfo[39m: Server is running on port 3500
+2024-11-18T23:05:33.850Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T23:05:33.908Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T23:05:34.010Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T23:05:34.162Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T23:05:34.365Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T23:05:34.618Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T23:05:34.923Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T23:05:35.276Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T23:05:35.679Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T23:05:36.133Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T23:05:36.639Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T23:05:37.192Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T23:05:37.795Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T23:05:38.449Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T23:05:39.152Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T23:05:39.905Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T23:05:40.708Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T23:05:41.561Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T23:05:42.465Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T23:05:43.418Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T23:05:44.421Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-11-18T23:05:45.476Z [32minfo[39m: REDIS CLIENT Connected
+2024-11-18T23:05:45.478Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-11-18T23:06:04.098Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-19T18:09:31.036Z [32minfo[39m: REDIS CLIENT Connected
+2024-11-19T18:09:31.042Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-11-19T18:10:01.786Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-21T22:09:16.094Z [32minfo[39m: REDIS CLIENT Connected
+2024-11-21T22:09:16.113Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-11-21T22:09:46.776Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-21T22:20:17.367Z [32minfo[39m: REDIS CLIENT Connected
+2024-11-21T22:20:17.437Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-11-21T22:20:47.705Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-21T22:23:26.250Z [32minfo[39m: REDIS CLIENT Connected
+2024-11-21T22:23:26.262Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T14:24:30.598Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T14:24:30.641Z [32minfo[39m: Listening on port 3500
+2024-12-01T14:24:30.650Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-12-01T14:24:30.707Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-12-01T14:24:30.810Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-12-01T14:24:30.963Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-12-01T14:24:31.167Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-12-01T14:24:31.421Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-12-01T14:24:31.726Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-12-01T14:24:32.081Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-12-01T14:24:32.485Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-12-01T14:24:32.938Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-12-01T14:24:33.443Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-12-01T14:24:33.996Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-12-01T14:24:34.601Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-12-01T14:24:35.256Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-12-01T14:24:35.958Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-12-01T14:24:36.710Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-12-01T14:24:37.513Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-12-01T14:24:38.368Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-12-01T14:24:39.272Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-12-01T14:24:40.226Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-12-01T14:24:41.228Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-12-01T14:24:42.282Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2024-12-01T14:24:43.389Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T14:24:43.391Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T14:25:04.227Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T14:25:04.254Z [32minfo[39m: Listening on port 3500
+2024-12-01T14:25:04.261Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T14:25:04.267Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T14:25:43.028Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T14:25:43.055Z [32minfo[39m: Listening on port 3500
+2024-12-01T14:25:43.061Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T14:25:43.064Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T14:27:22.155Z [31merror[39m: Error connecting to MongoDB: querySrv ETIMEOUT _mongodb._tcp.cluster0.ie7en.mongodb.net
+2024-12-01T14:27:47.349Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T14:27:47.376Z [32minfo[39m: Listening on port 3500
+2024-12-01T14:27:47.384Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T14:27:47.391Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T14:28:43.872Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-12-01T14:38:10.177Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T14:38:10.204Z [32minfo[39m: Listening on port 3500
+2024-12-01T14:38:10.211Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T14:38:10.215Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T14:38:13.662Z [32minfo[39m: Connected to MongoDB
+2024-12-01T14:43:43.083Z [31merror[39m: VALIDATION ERROR ==> 
+2024-12-01T14:44:10.320Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T14:44:10.348Z [32minfo[39m: Listening on port 3500
+2024-12-01T14:44:10.353Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T14:44:10.357Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T14:44:35.633Z [32minfo[39m: Connected to MongoDB
+2024-12-01T15:21:27.189Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T15:21:27.241Z [32minfo[39m: Listening on port 3500
+2024-12-01T15:21:27.258Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T15:21:27.265Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T15:21:57.630Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-12-01T15:25:24.069Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T15:25:24.096Z [32minfo[39m: Listening on port 3500
+2024-12-01T15:25:24.102Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T15:25:24.108Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T15:26:58.716Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-12-01T15:29:55.452Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T15:29:55.516Z [32minfo[39m: Listening on port 3500
+2024-12-01T15:29:55.524Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T15:29:55.528Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T15:30:45.202Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-12-01T15:30:59.714Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T15:30:59.745Z [32minfo[39m: Listening on port 3500
+2024-12-01T15:30:59.756Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T15:30:59.760Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T15:31:02.353Z [31merror[39m: VALIDATION ERROR ==> 
+2024-12-01T15:31:23.197Z [31merror[39m: Internal Error -->  Operation `users.findOne()` buffering timed out after 10000ms
+2024-12-01T15:31:33.898Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-12-01T19:14:43.490Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T19:14:43.519Z [32minfo[39m: Listening on port 3500
+2024-12-01T19:14:43.558Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T19:14:43.563Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T19:16:27.772Z [31merror[39m: Error connecting to MongoDB: querySrv ETIMEOUT _mongodb._tcp.cluster0.ie7en.mongodb.net
+2024-12-01T19:41:12.620Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T19:41:12.747Z [32minfo[39m: Listening on port 3500
+2024-12-01T19:41:12.995Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T19:41:13.000Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T19:41:44.040Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-12-01T19:42:25.843Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T19:42:25.876Z [32minfo[39m: Listening on port 3500
+2024-12-01T19:42:25.888Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T19:42:25.910Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T19:42:57.260Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-12-01T19:44:25.466Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T19:44:25.494Z [32minfo[39m: Listening on port 3500
+2024-12-01T19:44:25.503Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T19:44:25.509Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T19:44:38.130Z [32minfo[39m: Connected to MongoDB
+2024-12-01T19:44:53.757Z [31merror[39m: VALIDATION ERROR ==> 
+2024-12-01T19:45:01.399Z [31merror[39m: Internal Error -->  Expected double-quoted property name in JSON at position 73
+2024-12-01T19:45:07.815Z [31merror[39m: HANDLED ERROR ==>  Invalid credentials
+2024-12-01T19:54:23.445Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T19:54:23.493Z [32minfo[39m: Listening on port 3500
+2024-12-01T19:54:23.502Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T19:54:23.506Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T19:54:36.448Z [32minfo[39m: Connected to MongoDB
+2024-12-01T19:55:58.727Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T19:55:58.760Z [32minfo[39m: Listening on port 3500
+2024-12-01T19:55:58.766Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T19:55:58.770Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T19:56:15.211Z [32minfo[39m: Connected to MongoDB
+2024-12-01T19:56:25.931Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T19:56:26.001Z [32minfo[39m: Listening on port 3500
+2024-12-01T19:56:26.009Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T19:56:26.015Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T19:56:44.563Z [32minfo[39m: Connected to MongoDB
+2024-12-01T20:11:47.539Z [31merror[39m: VALIDATION ERROR ==> 
+2024-12-01T20:11:53.850Z [31merror[39m: Internal Error -->  Expected double-quoted property name in JSON at position 73
+2024-12-01T20:11:59.238Z [31merror[39m: HANDLED ERROR ==>  User not found
+2024-12-01T20:12:45.870Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T20:12:45.900Z [32minfo[39m: Listening on port 3500
+2024-12-01T20:12:45.905Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T20:12:45.909Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T20:12:56.476Z [31merror[39m: Internal Error -->  Operation `users.findOne()` buffering timed out after 10000ms
+2024-12-01T20:13:03.595Z [32minfo[39m: Connected to MongoDB
+2024-12-01T20:13:11.453Z [31merror[39m: HANDLED ERROR ==>  User not found
+2024-12-01T20:14:18.186Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T20:14:18.220Z [32minfo[39m: Listening on port 3500
+2024-12-01T20:14:18.225Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T20:14:18.229Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T20:14:33.425Z [32minfo[39m: Connected to MongoDB
+2024-12-01T20:18:02.943Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T20:18:02.972Z [32minfo[39m: Listening on port 3500
+2024-12-01T20:18:02.978Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T20:18:02.981Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T20:18:14.245Z [31merror[39m: Internal Error -->  Operation `users.findOne()` buffering timed out after 10000ms
+2024-12-01T20:18:15.797Z [32minfo[39m: Connected to MongoDB
+2024-12-01T20:18:49.572Z [31merror[39m: HANDLED ERROR ==>  User not found
+2024-12-01T20:19:03.114Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T20:19:03.155Z [32minfo[39m: Listening on port 3500
+2024-12-01T20:19:03.166Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T20:19:03.176Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T20:19:13.866Z [31merror[39m: Internal Error -->  Operation `users.findOne()` buffering timed out after 10000ms
+2024-12-01T20:19:18.665Z [32minfo[39m: Connected to MongoDB
+2024-12-01T20:20:54.034Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T20:20:54.061Z [32minfo[39m: Listening on port 3500
+2024-12-01T20:20:54.067Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T20:20:54.070Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T20:21:09.653Z [32minfo[39m: Connected to MongoDB
+2024-12-01T20:29:41.552Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T20:29:41.612Z [32minfo[39m: Listening on port 3500
+2024-12-01T20:29:41.623Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T20:29:41.627Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T20:29:54.424Z [32minfo[39m: Connected to MongoDB
+2024-12-01T20:31:50.327Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T20:31:50.353Z [32minfo[39m: Listening on port 3500
+2024-12-01T20:31:50.359Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T20:31:50.363Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T20:31:57.882Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T20:31:57.916Z [32minfo[39m: Listening on port 3500
+2024-12-01T20:31:57.927Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T20:31:57.931Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T20:32:09.229Z [31merror[39m: Internal Error -->  Operation `users.findOne()` buffering timed out after 10000ms
+2024-12-01T20:32:11.743Z [32minfo[39m: Connected to MongoDB
+2024-12-01T20:32:57.641Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T20:32:57.673Z [32minfo[39m: Listening on port 3500
+2024-12-01T20:32:57.681Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T20:32:57.686Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T20:33:10.105Z [32minfo[39m: Connected to MongoDB
+2024-12-01T20:33:49.497Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T20:33:49.525Z [32minfo[39m: Listening on port 3500
+2024-12-01T20:33:49.533Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T20:33:49.540Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T20:34:08.592Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T20:34:08.618Z [32minfo[39m: Listening on port 3500
+2024-12-01T20:34:08.624Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T20:34:08.628Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T20:34:24.151Z [32minfo[39m: Connected to MongoDB
+2024-12-01T20:35:07.411Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T20:35:07.454Z [32minfo[39m: Listening on port 3500
+2024-12-01T20:35:07.470Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T20:35:07.476Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T20:35:19.997Z [32minfo[39m: Connected to MongoDB
+2024-12-01T20:37:51.494Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T20:37:51.540Z [32minfo[39m: Listening on port 3500
+2024-12-01T20:37:51.551Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T20:37:51.557Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T20:38:04.446Z [32minfo[39m: Connected to MongoDB
+2024-12-01T20:52:40.322Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T20:52:40.350Z [32minfo[39m: Listening on port 3500
+2024-12-01T20:52:40.356Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T20:52:40.362Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T20:52:56.971Z [32minfo[39m: Connected to MongoDB
+2024-12-01T20:53:30.955Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T20:53:30.990Z [32minfo[39m: Listening on port 3500
+2024-12-01T20:53:30.999Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T20:53:31.006Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T20:53:43.265Z [32minfo[39m: Connected to MongoDB
+2024-12-01T20:54:17.863Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T20:54:17.898Z [32minfo[39m: Listening on port 3500
+2024-12-01T20:54:17.914Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T20:54:17.922Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T20:54:30.652Z [32minfo[39m: Connected to MongoDB
+2024-12-01T20:54:51.147Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T20:54:51.183Z [32minfo[39m: Listening on port 3500
+2024-12-01T20:54:51.199Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T20:54:51.204Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T20:55:01.379Z [31merror[39m: Internal Error -->  Operation `users.findOne()` buffering timed out after 10000ms
+2024-12-01T20:55:03.301Z [32minfo[39m: Connected to MongoDB
+2024-12-01T20:55:53.152Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T20:55:53.183Z [32minfo[39m: Listening on port 3500
+2024-12-01T20:55:53.193Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T20:55:53.197Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T20:56:05.577Z [32minfo[39m: Connected to MongoDB
+2024-12-01T20:57:44.493Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T20:57:44.520Z [32minfo[39m: Listening on port 3500
+2024-12-01T20:57:44.527Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T20:57:44.531Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T20:57:57.914Z [32minfo[39m: Connected to MongoDB
+2024-12-01T20:58:30.084Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T20:58:30.123Z [32minfo[39m: Listening on port 3500
+2024-12-01T20:58:30.143Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T20:58:30.149Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T20:58:42.186Z [32minfo[39m: Connected to MongoDB
+2024-12-01T20:59:03.641Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T20:59:03.675Z [32minfo[39m: Listening on port 3500
+2024-12-01T20:59:03.693Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T20:59:03.700Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T20:59:18.216Z [32minfo[39m: Connected to MongoDB
+2024-12-01T21:04:07.261Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T21:04:07.288Z [32minfo[39m: Listening on port 3500
+2024-12-01T21:04:07.294Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T21:04:07.298Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T21:04:19.461Z [32minfo[39m: Connected to MongoDB
+2024-12-01T21:31:10.433Z [32minfo[39m: CREATING REDIS CLIENT
+2024-12-01T21:31:10.460Z [32minfo[39m: Listening on port 3500
+2024-12-01T21:31:10.465Z [32minfo[39m: REDIS CLIENT Connected
+2024-12-01T21:31:10.469Z [32minfo[39m: REDIS CLIENT Authenticated
+2024-12-01T21:31:20.423Z [32minfo[39m: Connected to MongoDB

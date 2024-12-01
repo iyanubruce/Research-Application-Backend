@@ -8,7 +8,7 @@ import logger from '../../utils/logger';
 import ErrorHandler from '../../errors/errorHandler';
 import { TokenExpiredError } from 'jsonwebtoken';
 
-export default function handleErrors(err: Error, req: Request, res: Response, _next: NextFunction): Response {
+export default function handleErrors(err: Error, req: Request, res: Response, next: NextFunction): Response {
   if (env.application.nodeEnv === 'production') {
     Sentry.captureException(err);
   }

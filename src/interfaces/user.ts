@@ -4,3 +4,7 @@ export interface UserSignupInput {
   password: string;
   confirm_password: string;
 }
+export interface UserLoginInput {
+  email: string;
+  password: string;
+}
