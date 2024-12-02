@@ -6,6 +6,7 @@ export default {
   application: {
     nodeEnv: process.env.NODE_ENV?.toLowerCase() || 'development',
     port: process.env.PORT || 3500,
+    baseUrl: process.env.APP_URL || 'http://localhost:3500',
     sentryDsn: process.env.SENTRY_DSN,
     bullUsername: process.env.BULL_USERNAME,
     bullPassword: process.env.BULL_PASSWORD,

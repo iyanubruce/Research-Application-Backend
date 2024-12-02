@@ -17,7 +17,7 @@ export interface UserAttributes extends Document {
   createdAt?: Date;
 }
 
-const userSchema = new Schema<UserAttributes>(
+export const userSchema = new Schema<UserAttributes>(
   {
     username: {
       type: String,

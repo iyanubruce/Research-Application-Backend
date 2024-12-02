@@ -3,6 +3,7 @@ import JoiDate from '@joi/date';
 import { UserStatus } from '../constants/user';
 
 const { string, number, array, boolean } = Joi.types();
+const dateValidator = Joi.extend(JoiDate);
 
 const passwordSchema = string
   .trim()
@@ -13,6 +14,7 @@ const passwordSchema = string
   .regex(/[^\w]/, 'special character')
   .regex(/[0-9]/, 'digits');
 
+const fieldsToExport = ['email', 'username', 'avatar', 'status', 'last_login', 'role', 'works'];
 export const createUserSchema = celebrate(
   {
     [Segments.BODY]: Joi.object()
@@ -48,6 +50,27 @@ export const completeTwoFactorLoginSchema = celebrate(
       .keys({
         token: string.required(),
         code: string.required().max(6)
+      })
+      .required()
+  },
+  {
+    abortEarly: false
+  }
+);
+
+export const getAllUsersSchema = celebrate(
+  {
+    [Segments.QUERY]: Joi.object()
+      .keys({
+        status: string.trim().valid(...Object.values(UserStatus)),
+        username: string,
+        email: string,
+        dateFrom: dateValidator.date().format('YYYY-MM-DD').raw(),
+        dateTo: dateValidator.date().format('YYYY-MM-DD').raw(),
+        format: string.valid('excel', 'csv'),
+        page: number,
+        limit: number,
+        fieldsToExport: array.items(string.trim().valid(...fieldsToExport))
       })
       .required()
   },

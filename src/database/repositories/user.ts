@@ -1,5 +1,5 @@
 import User, { UserAttributes } from '../models/user';
-import mongoose, { ClientSession, FilterQuery, ProjectionType, PopulateOptions } from 'mongoose';
+import mongoose, { ClientSession, FilterQuery, ProjectionType, PopulateOptions, SessionOperation } from 'mongoose';
 import bcrypt from 'bcryptjs'; // Assuming you have a Mongoose model for User
 
 /**
@@ -13,7 +13,7 @@ interface FindUserOptions<T> {
   projection?: ProjectionType<T>;
   populate?: string | PopulateOptions | Array<string | PopulateOptions>;
   session?: ClientSession;
-  lean?: boolean; // Return plain JavaScript objects for better performance
+  lean?: boolean;
 }
 
 export const findExistingUser = async (
@@ -41,11 +41,7 @@ export const createUser = async (user: UserAttributes, session?: ClientSession):
   return newUser;
 };
 
-export const updateUser = async (
-  id: string,
-  user: Partial<UserAttributes>,
-  session?: any // Replace `any` with `ClientSession` if using Mongoose with TypeScript
-): Promise<void> => {
+export const updateUser = async (id: string, user: Partial<UserAttributes>, session?: ClientSession): Promise<void> => {
   const updatedData: Partial<UserAttributes> = { ...user };
 
   if (updatedData.password) {
@@ -53,11 +49,7 @@ export const updateUser = async (
     updatedData.password = hash;
   }
 
-  await User.updateOne(
-    { _id: id }, // MongoDB uses `_id` as the default identifier field
-    { $set: updatedData },
-    session ? { session } : {}
-  );
+  await User.updateOne({ _id: id }, { $set: updatedData }, session ? { session } : {});
 };
 
 export async function findUser<T extends UserAttributes>({
@@ -82,12 +74,42 @@ export async function findUser<T extends UserAttributes>({
   }
 
   if (session) {
-    query.session(session); // Transactional support
+    query.session(session);
   }
 
   if (lean) {
-    query.lean(); // Optimize by returning plain objects
+    query.lean();
   }
 
-  return query.exec() as Promise<T | null>; // Execute the query and cast the result
+  return query.exec() as Promise<T | null>;
 }
+
+export const findAndCountAllUsers = async (options: {
+  data?: FilterQuery<UserAttributes>;
+  attributes?: Array<keyof UserAttributes>;
+  session?: ClientSession;
+  limit?: number;
+  offset?: number;
+}): Promise<{ rows: UserAttributes[]; count: number }> => {
+  const { attributes, data, limit, offset, session } = options;
+
+  const query = User.find(data || {})
+    .sort({ id: -1 })
+    .session(session || null);
+
+  if (attributes) {
+    query.select(attributes.join(' '));
+  }
+
+  if (limit) {
+    query.limit(limit);
+  }
+
+  if (offset) {
+    query.skip(offset);
+  }
+
+  const [rows, count] = await Promise.all([query.exec(), User.countDocuments(data || {}).session(session || null)]);
+
+  return { rows, count };
+};
