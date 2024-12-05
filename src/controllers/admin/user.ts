@@ -3,8 +3,11 @@ import { Pagination } from '../../api/middlewares/paginate';
 import { UserAttributes } from '../../database/models/user';
 import * as userHelper from '../../helpers/user';
 import { formatUserDataForExport } from '../../helpers/user';
-import { findAndCountAllUsers } from '../../database/repositories/user';
+import { findAndCountAllUsers, countUsers, findUser } from '../../database/repositories/user';
 import { generateExport } from '../../utils/excel';
+import { ResourceNotFoundError } from '../../errors';
+import { updateUser as updateUserRepo } from '../../database/repositories/user';
+import { UserStatus } from '../../constants/user';
 
 export async function getAllUsers(
   validatedData: GetAllUsersQuery,
@@ -38,4 +41,39 @@ export async function getAllUsers(
   //   reference: getUniqueID(ReferencePrefix.AuditLog)
   // });
   return { fileContent };
+}
+
+export async function getUserCount(validatedData: GetUserCountQuery): Promise<number> {
+  const where = userHelper.parseWhereQueryForGetUserCount(validatedData);
+  const userCount = await countUsers({
+    data: where
+  });
+  return userCount;
+}
+
+export async function updateUser(id: string, status: UserStatus, admin: UserAttributes): Promise<any> {
+  const user = await findUser({ filter: { id } });
+  if (!user) throw new ResourceNotFoundError('User not found');
+  await updateUserRepo(id, {
+    status
+  });
+
+  // emitter.emit(LISTENERS.AUDIT_LOG, {
+  //   event: AuditLogEvents.SetUserStatus,
+  //   // eslint-disable-next-line max-len
+  //   description: `${admin.first_name} ${admin.last_name} (${admin.email}) updated ${user.first_name} ${user.last_name} with user id ${user.id} to ${status}`,
+  //   actor: AuditLogActor.Admin,
+  //   actor_id: admin.id,
+  //   target: true,
+  //   targetId: user.id,
+  //   reference: getUniqueID(ReferencePrefix.AuditLog)
+  // });
+}
+
+export async function getUser(id: string): Promise<{ user: UserAttributes }> {
+  const user = await findUser({
+    filter: { id }
+  });
+  if (!user) throw new ResourceNotFoundError('User not found');
+  return { user };
 }

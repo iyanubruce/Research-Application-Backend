@@ -113,3 +113,16 @@ export const findAndCountAllUsers = async (options: {
 
   return { rows, count };
 };
+
+export const countUsers = async (options: {
+  data?: FilterQuery<UserAttributes>;
+  transaction?: ClientSession;
+}): Promise<number> => {
+  const { data, transaction } = options;
+
+  const filter: FilterQuery<UserAttributes> = data || {};
+
+  const queryOptions = transaction ? { session: transaction } : {};
+
+  return User.countDocuments(filter).setOptions(queryOptions).exec();
+};

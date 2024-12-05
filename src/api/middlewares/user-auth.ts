@@ -5,7 +5,6 @@ import { findUser } from '../../database/repositories/user';
 import { NotAuthenticatedError, NotAuthorizedError } from '../../errors';
 import JWT from '../../helpers/jwt';
 import { UserRole, UserStatus } from '../../constants/user';
-import Role from '../../database/models/roles';
 
 const authenticate = (admin?: boolean) => {
   return async (req: Request, res: Response, next: NextFunction) => {
@@ -25,8 +24,7 @@ const authenticate = (admin?: boolean) => {
       const decoded = JWT.decode(token);
 
       const user = await findUser({
-        data: { id: decoded.id },
-        include: admin ? [{ model: Role, as: 'admin_role', attributes: ['name', 'permissions'] }] : []
+        filter: { id: decoded.id }
       });
 
       if (!user) {

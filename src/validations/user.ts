@@ -78,3 +78,44 @@ export const getAllUsersSchema = celebrate(
     abortEarly: false
   }
 );
+
+export const getAllUsersCountSchema = celebrate(
+  {
+    [Segments.QUERY]: Joi.object()
+      .keys({
+        status: string.trim().valid(...Object.values(UserStatus)),
+        dateFrom: dateValidator.date().format('YYYY-MM-DD').raw(),
+        dateTo: dateValidator.date().format('YYYY-MM-DD').raw()
+      })
+      .required()
+  },
+  {
+    abortEarly: false
+  }
+);
+
+export const userParamsSchema = celebrate(
+  {
+    [Segments.PARAMS]: Joi.object()
+      .keys({
+        id: string.trim().required()
+      })
+      .required()
+  },
+  {
+    abortEarly: false
+  }
+);
+
+export const adminUpdateUserSchema = celebrate(
+  {
+    [Segments.BODY]: Joi.object()
+      .keys({
+        status: string.trim().valid(...Object.values(UserStatus))
+      })
+      .required()
+  },
+  {
+    abortEarly: true
+  }
+);
