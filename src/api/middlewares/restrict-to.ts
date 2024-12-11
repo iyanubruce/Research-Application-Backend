@@ -1,9 +1,9 @@
 import { Request, Response, NextFunction } from 'express';
 import { NotAuthorizedError } from '../../errors';
 
-export function restrictTo(...roles: string[]): any {
+export function restrictTo(isAdmin: boolean): any {
   return function (req: Request, res: Response, next: NextFunction) {
-    if (!roles.includes(res.locals.user.role)) {
+    if (res.locals.user.isAdmin !== true) {
       throw new NotAuthorizedError('You are not authorized to perform this action');
     }
     next();

@@ -51,10 +51,10 @@ export async function getUserCount(validatedData: GetUserCountQuery): Promise<nu
   return userCount;
 }
 
-export async function updateUser(id: string, status: UserStatus, admin: UserAttributes): Promise<any> {
-  const user = await findUser({ filter: { id } });
+export async function updateUser(_id: string, status: UserStatus, admin: UserAttributes): Promise<any> {
+  const user = await findUser({ filter: { _id } });
   if (!user) throw new ResourceNotFoundError('User not found');
-  await updateUserRepo(id, {
+  await updateUserRepo(user._id, {
     status
   });
 
@@ -70,9 +70,9 @@ export async function updateUser(id: string, status: UserStatus, admin: UserAttr
   // });
 }
 
-export async function getUser(id: string): Promise<{ user: UserAttributes }> {
+export async function getUser(_id: string): Promise<{ user: UserAttributes }> {
   const user = await findUser({
-    filter: { id }
+    filter: { _id }
   });
   if (!user) throw new ResourceNotFoundError('User not found');
   return { user };

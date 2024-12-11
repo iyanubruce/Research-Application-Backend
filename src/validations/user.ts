@@ -111,11 +111,14 @@ export const adminUpdateUserSchema = celebrate(
   {
     [Segments.BODY]: Joi.object()
       .keys({
-        status: string.trim().valid(...Object.values(UserStatus))
+        status: string
+          .trim()
+          .valid(...Object.values(UserStatus))
+          .required()
       })
       .required()
   },
   {
-    abortEarly: true
+    abortEarly: false
   }
 );

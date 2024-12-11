@@ -30,19 +30,13 @@ const authenticate = (admin?: boolean) => {
       if (!user) {
         throw new NotAuthenticatedError('Invalid session');
       }
-
-      if (user.status !== UserStatus.Active && user.status !== UserStatus.Verified) {
+      if (user.isAdmin !== true && user.status !== UserStatus.Verified) {
         throw new NotAuthenticatedError(`This account is currently ${user.status} please contact support`);
-        // throw new NotAuthenticatedError(
-        //   `This account is currently ${user.status}${
-        //     user.status == UserStatus.Verified ? ' but not active' : ''
-        //   } please contact support`
-        // );
       }
 
       res.locals.user = user;
 
-      if (req.params.id && res.locals.user.role !== UserRole.Admin) {
+      if (req.params.id && res.locals.user.isAdmin !== true) {
         if (Number(req.params.id) !== Number(res.locals.user.id))
           throw new NotAuthorizedError('You are not authorized to perform this action');
       }

@@ -8,7 +8,7 @@ import { getAllUsersSchema, getAllUsersCountSchema, userParamsSchema, adminUpdat
 
 const userRouter = Router();
 userRouter.use(authenticate(true));
-userRouter.use(restrictTo(UserRole.Admin));
+userRouter.use(restrictTo(true));
 
 userRouter.get('/', getAllUsersSchema, paginate(), userRequestHandler.getAllUsers);
 userRouter.get('/count', getAllUsersCountSchema, userRequestHandler.getUserCount);
