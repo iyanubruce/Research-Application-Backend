@@ -28,5 +28,8 @@ export default {
     password: process.env.REDIS_PASSWORD || '',
     maxRetriesPerRequest: null as any,
     enableReadyCheck: false
+  },
+  hugginFace: {
+    apiKey: process.env.HF_TOKEN || 'api-key'
   }
 };

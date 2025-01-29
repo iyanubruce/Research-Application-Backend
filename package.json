@@ -26,6 +26,7 @@
   "dependencies": {
     "@bull-board/api": "^6.5.3",
     "@bull-board/express": "^6.5.3",
+    "@huggingface/inference": "^3.1.2",
     "@joi/date": "^2.1.1",
     "@sentry/node": "^8.38.0",
     "@sentry/profiling-node": "^8.38.0",

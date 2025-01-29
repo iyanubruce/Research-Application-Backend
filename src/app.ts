@@ -21,7 +21,7 @@ import bullAuth from './api/middlewares/bull-auth';
 import { QUEUE_URL_PATH, bullQueueUI } from './utils/bull-queue';
 
 import { init as initializeRedis } from './utils/redis';
-import userRouter from './api/user/routes/index';
+import userRouter from './api/v1/routes/index';
 import adminRouter from './api/admin-routes/index';
 initializeRedis(new Redis(env.redis));
 

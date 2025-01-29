@@ -1,6 +1,6 @@
 import bcrypt from 'bcryptjs';
 import User, { UserAttributes } from '../database/models/user';
-import { findExistingUser, findUser, updateUser } from '../database/repositories/user';
+import { findExistingUser, findUser, updateUser, createUser } from '../database/repositories/user';
 import { UserSignupInput, UserLoginInput } from '../interfaces/user';
 import { UserStatus } from '../constants/user';
 import JWT from '../helpers/jwt';
@@ -14,12 +14,7 @@ export const signup = async (validatedData: UserSignupInput): Promise<UserAttrib
     throw new Error('User with email or username already exists');
   }
   const hashedPassword = bcrypt.hashSync(validatedData.password, 10);
-  const user = new User({
-    email: validatedData.email,
-    username: validatedData.username,
-    password: hashedPassword
-  });
-  await user.save();
+  const user = createUser({ email: validatedData.email, password: hashedPassword, username: validatedData.username });
   return user;
 };
 

@@ -13,8 +13,7 @@ export const login: RequestHandler = async (req, res, next) => {
         id: user.id,
         email: user.email,
         status: user.status,
-        username: user.username,
-        works: user.works
+        username: user.username
       }
     };
     res.json(utilities.itemResponse(responsePayload, message));

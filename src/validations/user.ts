@@ -44,19 +44,19 @@ export const loginSchema = celebrate(
   }
 );
 
-export const completeTwoFactorLoginSchema = celebrate(
-  {
-    [Segments.BODY]: Joi.object()
-      .keys({
-        token: string.required(),
-        code: string.required().max(6)
-      })
-      .required()
-  },
-  {
-    abortEarly: false
-  }
-);
+// export const completeTwoFactorLoginSchema = celebrate(
+//   {
+//     [Segments.BODY]: Joi.object()
+//       .keys({
+//         token: string.required(),
+//         code: string.required().max(6)
+//       })
+//       .required()
+//   },
+//   {
+//     abortEarly: false
+//   }
+// );
 
 export const getAllUsersSchema = celebrate(
   {

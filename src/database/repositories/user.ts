@@ -1,5 +1,5 @@
 import User, { UserAttributes } from '../models/user';
-import mongoose, { ClientSession, FilterQuery, ProjectionType, PopulateOptions, SessionOperation } from 'mongoose';
+import { ClientSession, FilterQuery, ProjectionType, PopulateOptions, SessionOperation } from 'mongoose';
 import bcrypt from 'bcryptjs'; // Assuming you have a Mongoose model for User
 
 /**
@@ -29,7 +29,7 @@ export const findExistingUser = async (
   );
 };
 
-export const createUser = async (user: UserAttributes, session?: ClientSession): Promise<UserAttributes> => {
+export const createUser = async (user: Partial<UserAttributes>, session?: ClientSession): Promise<UserAttributes> => {
   const newUser = new User({ user });
 
   if (session) {

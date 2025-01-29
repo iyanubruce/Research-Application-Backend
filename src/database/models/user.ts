@@ -1,21 +1,13 @@
 import mongoose, { Schema, Document } from 'mongoose';
 
-interface IWorks {
-  courseId: mongoose.Types.ObjectId;
-  lastAccessed: Date;
-}
-
 export interface UserAttributes extends Document {
   _id: string;
   username: string;
   email: string;
   password: string;
-  works?: IWorks[];
-  isAdmin?: boolean;
-  verifiedEmail?: boolean;
   status?: string;
+  isActive?: boolean;
   lastLogin?: Date;
-  createdAt?: Date;
 }
 
 export const userSchema = new Schema<UserAttributes>(
@@ -36,28 +28,13 @@ export const userSchema = new Schema<UserAttributes>(
       type: String,
       required: true
     },
-    works: [
-      {
-        courseId: {
-          type: mongoose.Schema.Types.ObjectId,
-          ref: 'Course'
-        },
-        lastAccessed: {
-          type: Date,
-          default: Date.now
-        }
-      }
-    ],
-    isAdmin: {
-      type: Boolean,
-      default: false
-    },
+
     status: {
       type: String,
       enum: ['active', 'inactive', 'deleted'],
       default: 'active'
     },
-    verifiedEmail: {
+    isActive: {
       type: Boolean,
       default: true
     },
