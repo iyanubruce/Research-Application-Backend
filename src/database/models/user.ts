@@ -7,6 +7,7 @@ export interface UserAttributes extends Document {
   password: string;
   status?: string;
   isActive?: boolean;
+  role?: string;
   lastLogin?: Date;
 }
 
@@ -37,6 +38,11 @@ export const userSchema = new Schema<UserAttributes>(
     isActive: {
       type: Boolean,
       default: true
+    },
+    role: {
+      type: String,
+      enum: ['admin', 'user'],
+      default: 'user'
     },
     lastLogin: {
       type: Date,

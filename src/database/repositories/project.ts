@@ -1,7 +1,5 @@
 import Project, { ProjectAttributes } from '../models/project';
-import { ClientSession, FilterQuery, ProjectionType, PopulateOptions, SessionOperation, Schema } from 'mongoose';
-import bcrypt from 'bcryptjs';
-import User from '../models/user';
+import { ClientSession, Schema } from 'mongoose';
 
 export const createProject = async (project: Partial<ProjectAttributes>, session?: ClientSession) => {
   const newProject = new Project({ project });

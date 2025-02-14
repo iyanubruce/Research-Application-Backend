@@ -1,19 +1,19 @@
 import mongoose, { Schema, Document as MongooseDocument } from 'mongoose';
 
 export interface DocumentAttributes extends MongooseDocument {
-  _id: string;
-  projectId: string;
-  userId: string;
+  _id: Schema.Types.ObjectId;
+  projectId: Schema.Types.ObjectId;
+  userId: Schema.Types.ObjectId;
   title: string;
   content: string;
-  status?: string;
+  status: string;
   isDeleted?: boolean;
 }
 
 const documentSchema = new Schema<DocumentAttributes>(
   {
     projectId: {
-      type: Schema.Types.String,
+      type: Schema.Types.ObjectId,
       ref: 'Project',
       required: true,
       validate: {
@@ -24,7 +24,7 @@ const documentSchema = new Schema<DocumentAttributes>(
       }
     },
     userId: {
-      type: Schema.Types.String,
+      type: Schema.Types.ObjectId,
       ref: 'User',
       required: true,
       validate: {
@@ -35,8 +35,9 @@ const documentSchema = new Schema<DocumentAttributes>(
       }
     },
     title: { type: String, required: true },
-    content: { type: String, required: true },
-    status: { type: String, required: true }
+    content: { type: String, required: true, default: '' },
+    status: { type: String, required: true, default: '' },
+    isDeleted: { type: Boolean, required: true, default: false }
   },
   {
     timestamps: true

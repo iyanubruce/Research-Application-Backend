@@ -7,7 +7,7 @@ import {
   FindAllProjects,
   FindAndDeleteProject
 } from '../database/repositories/project';
-import { BadRequestError } from 'src/errors';
+import { BadRequestError } from '../errors';
 
 export const createProject = async (validatedData: CreateProjectInput, user: UserAttributes) => {
   const ProjectExist = await findProjectByTitleAndId(validatedData.title, user.id);

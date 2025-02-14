@@ -4,7 +4,8 @@ export enum UserStatus {
   Active = 'active',
   Locked = 'locked',
   Suspended = 'suspended',
-  Deleted = 'deleted'
+  Deleted = 'deleted',
+  Blocked = 'blocked'
 }
 
 export enum UserRole {
