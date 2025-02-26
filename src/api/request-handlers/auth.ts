@@ -16,11 +16,13 @@ export const signup: RequestHandler = async (req, res, next) => {
 export const login: RequestHandler = async (req, res, next) => {
   try {
     const { user, accessToken, message } = await authController.login(req.body);
+
+    console.log('user', user);
     const responsePayload = {
       ...(accessToken && { tokenType: 'Bearer' }),
       accessToken: accessToken,
       user: {
-        id: user.id,
+        id: user._id,
         email: user.email,
         status: user.status,
         username: user.username

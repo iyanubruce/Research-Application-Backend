@@ -9,12 +9,18 @@ import { BadRequestError, ConflictError, NotAuthorizedError, ResourceNotFoundErr
 // import * as utilities from '../helpers/utilities';
 
 export const signup = async (validatedData: UserSignupInput): Promise<UserAttributes> => {
-  const userExists = await findExistingUser({ email: validatedData.email, username: validatedData.username });
-  if (userExists) {
-    throw new Error('User with email or username already exists');
+  const usernameExists = await findExistingUser({ username: validatedData.username });
+  const userEmailExists = await findExistingUser({ email: validatedData.email });
+
+  if (usernameExists || userEmailExists) {
+    throw new ConflictError('User with email or username already exists');
   }
   const hashedPassword = bcrypt.hashSync(validatedData.password, 10);
-  const user = createUser({ email: validatedData.email, password: hashedPassword, username: validatedData.username });
+  const user = createUser({
+    email: validatedData.email.toLocaleLowerCase(),
+    password: hashedPassword,
+    username: validatedData.username
+  });
   return user;
 };
 
@@ -22,7 +28,7 @@ export const login = async (
   validatedData: UserLoginInput
 ): Promise<{ user: UserAttributes; accessToken: string; message: string }> => {
   const user = await findUser({
-    filter: { email: validatedData.email }
+    filter: { email: validatedData.email.toLocaleLowerCase() }
   });
 
   if (!user || user.status === UserStatus.Deleted) {

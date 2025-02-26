@@ -77,7 +77,7 @@ function onListening(): void {
   const addr = server.address();
   const bind = typeof addr === 'string' ? `pipe ${addr}` : `port ${addr!.port}`;
   debug(`Listening on ${bind}`);
-  logger.info(`Listening on ${bind}`);
+  logger.info(`Server listening on ${bind}`);
 }
 
 server.on('error', onError);

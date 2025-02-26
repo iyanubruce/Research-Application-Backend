@@ -17,12 +17,12 @@ interface FindUserOptions<T> {
 }
 
 export const findExistingUser = async (
-  data: { email: string; username: string },
+  data: { email?: string; username?: string },
   session?: ClientSession
 ): Promise<UserAttributes | null> => {
   return User.findOne(
     {
-      $or: [{ email: data.email }, { phone: data.username }]
+      $or: [{ email: data.email }, { username: data.username }]
     },
     null,
     { session }
@@ -30,7 +30,7 @@ export const findExistingUser = async (
 };
 
 export const createUser = async (user: Partial<UserAttributes>, session?: ClientSession): Promise<UserAttributes> => {
-  const newUser = new User({ user });
+  const newUser = new User({ username: user.username, email: user.email, password: user.password });
 
   if (session) {
     await newUser.save({ session });

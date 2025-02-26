@@ -22,7 +22,6 @@ const authenticate = (admin?: boolean) => {
       }
 
       const decoded = JWT.decode(token);
-
       const user = await findUser({
         filter: { id: decoded.id }
       });

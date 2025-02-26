@@ -6,6 +6,7 @@ export const createProjectSchema = celebrate(
   {
     [Segments.BODY]: Joi.object()
       .keys({
+        user_id: string.required(),
         title: string.required().max(300),
         description: string.required().max(500)
       })

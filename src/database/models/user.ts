@@ -35,10 +35,6 @@ export const userSchema = new Schema<UserAttributes>(
       enum: ['active', 'inactive', 'deleted'],
       default: 'active'
     },
-    isActive: {
-      type: Boolean,
-      default: true
-    },
     role: {
       type: String,
       enum: ['admin', 'user'],

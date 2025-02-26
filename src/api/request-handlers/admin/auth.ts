@@ -10,7 +10,7 @@ export const login: RequestHandler = async (req, res, next) => {
       ...(accessToken && { tokenType: 'Bearer' }),
       accessToken: accessToken,
       user: {
-        id: user.id,
+        id: user._id,
         email: user.email,
         status: user.status,
         username: user.username
