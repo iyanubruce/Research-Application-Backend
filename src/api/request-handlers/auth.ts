@@ -17,7 +17,6 @@ export const login: RequestHandler = async (req, res, next) => {
   try {
     const { user, accessToken, message } = await authController.login(req.body);
 
-    console.log('user', user);
     const responsePayload = {
       ...(accessToken && { tokenType: 'Bearer' }),
       accessToken: accessToken,

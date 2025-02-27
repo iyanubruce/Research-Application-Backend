@@ -4,32 +4,36 @@ import {
   createProject as createNewProject,
   updateProject as projectUpdate,
   findProjectByTitleAndId,
-  FindAllProjects,
-  FindAndDeleteProject
+  findAllProjects,
+  findProjectById,
+  findAndDeleteProject
 } from '../database/repositories/project';
 import { BadRequestError } from '../errors';
 
 export const createProject = async (validatedData: CreateProjectInput, user: UserAttributes) => {
-  const ProjectExist = await findProjectByTitleAndId(validatedData.title, user.id);
+  const ProjectExist = await findProjectByTitleAndId(validatedData.title, user._id);
+
   if (ProjectExist) {
-    throw new Error('Project with this title already exists');
+    throw new BadRequestError('Project with this title already exists');
   }
-  await createNewProject({ title: validatedData.title, userId: user.id, description: validatedData.description });
+
+  const newProject = await createNewProject({ userId: user._id, ...validatedData });
+  return newProject;
 };
 
-export const updateProject = async (validatedData: CreateProjectInput, user: UserAttributes) => {
-  await projectUpdate(validatedData);
+export const updateProject = async (id: string, validatedData: CreateProjectInput) => {
+  await projectUpdate(id, validatedData);
 };
 
 export const getProjects = async (user: UserAttributes) => {
-  const projects = await FindAllProjects(user.id);
+  const projects = await findAllProjects(user._id);
   return projects;
 };
 
-export const deleteProject = async (validatedData: DeleteProjectInput, user: UserAttributes): Promise<void> => {
-  const projectExits = await findProjectByTitleAndId(validatedData.title, user.id);
+export const deleteProject = async (id: string): Promise<void> => {
+  const projectExits = await findProjectById(id);
   if (!projectExits) {
     throw new BadRequestError('This Project does not exist');
   }
-  await FindAndDeleteProject(projectExits.id);
+  await findAndDeleteProject(projectExits._id);
 };

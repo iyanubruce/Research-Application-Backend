@@ -1,12 +1,11 @@
 import { celebrate, Joi, Segments } from 'celebrate';
-import JoiDate from '@joi/date';
+
 const { string } = Joi.types();
 
 export const createProjectSchema = celebrate(
   {
     [Segments.BODY]: Joi.object()
       .keys({
-        user_id: string.required(),
         title: string.required().max(300),
         description: string.required().max(500)
       })
@@ -19,10 +18,13 @@ export const createProjectSchema = celebrate(
 
 export const updateProjectSchema = celebrate(
   {
+    [Segments.PARAMS]: Joi.object().keys({
+      id: string.required()
+    }),
     [Segments.BODY]: Joi.object()
       .keys({
-        title: string.required().max(300),
-        description: string.required().max(500)
+        title: string.required().max(300).optional(),
+        description: string.required().max(500).optional()
       })
       .optional()
   },

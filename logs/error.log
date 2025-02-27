@@ -136,3 +136,89 @@
 2025-02-26T11:12:49.052Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
 2025-02-26T11:14:17.847Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
 2025-02-26T11:17:54.681Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-02-26T11:23:20.200Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-02-26T11:53:10.204Z [31merror[39m: HANDLED ERROR ==>  Not authenticated. Session does not exist
+2025-02-26T11:53:26.586Z [31merror[39m: HANDLED ERROR ==>  Session has expired, please log in again.
+2025-02-26T11:55:10.978Z [31merror[39m: VALIDATION ERROR ==> 
+2025-02-26T11:55:43.943Z [31merror[39m: Internal Error -->  Project validation failed: description: Path `description` is required., title: Path `title` is required., userId: Path `userId` is required.
+2025-02-26T11:56:39.278Z [31merror[39m: Internal Error -->  Project validation failed: description: Path `description` is required., title: Path `title` is required., userId: Path `userId` is required.
+2025-02-26T14:20:36.041Z [31merror[39m: HANDLED ERROR ==>  Session has expired, please log in again.
+2025-02-26T14:21:15.371Z [31merror[39m: Internal Error -->  Project validation failed: description: Path `description` is required., title: Path `title` is required., userId: Path `userId` is required.
+2025-02-26T14:32:00.308Z [31merror[39m: Internal Error -->  Project validation failed: description: Path `description` is required., title: Path `title` is required., userId: Path `userId` is required.
+2025-02-26T14:34:04.301Z [31merror[39m: Internal Error -->  Project validation failed: description: Path `description` is required., title: Path `title` is required., userId: Path `userId` is required.
+2025-02-26T14:39:04.730Z [31merror[39m: Internal Error -->  Project validation failed: description: Path `description` is required., title: Path `title` is required., userId: Path `userId` is required.
+2025-02-26T14:39:16.839Z [31merror[39m: Internal Error -->  Project validation failed: description: Path `description` is required., title: Path `title` is required., userId: Path `userId` is required.
+2025-02-26T14:39:27.528Z [31merror[39m: Internal Error -->  Project validation failed: description: Path `description` is required., title: Path `title` is required., userId: Path `userId` is required.
+2025-02-26T14:39:37.385Z [31merror[39m: Internal Error -->  Project validation failed: description: Path `description` is required., title: Path `title` is required., userId: Path `userId` is required.
+2025-02-26T14:40:15.439Z [31merror[39m: Internal Error -->  Project validation failed: description: Path `description` is required., title: Path `title` is required., userId: Path `userId` is required.
+2025-02-26T14:43:28.048Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T14:43:50.201Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T14:43:56.474Z [31merror[39m: Internal Error -->  Expected double-quoted property name in JSON at position 34
+2025-02-26T14:43:57.855Z [31merror[39m: Internal Error -->  Expected double-quoted property name in JSON at position 34
+2025-02-26T14:43:59.166Z [31merror[39m: Internal Error -->  Expected double-quoted property name in JSON at position 34
+2025-02-26T14:44:00.340Z [31merror[39m: Internal Error -->  Expected double-quoted property name in JSON at position 34
+2025-02-26T14:44:01.699Z [31merror[39m: Internal Error -->  Expected double-quoted property name in JSON at position 34
+2025-02-26T14:44:03.913Z [31merror[39m: Internal Error -->  Expected double-quoted property name in JSON at position 34
+2025-02-26T14:44:05.048Z [31merror[39m: Internal Error -->  Expected double-quoted property name in JSON at position 34
+2025-02-26T14:44:06.185Z [31merror[39m: Internal Error -->  Expected double-quoted property name in JSON at position 34
+2025-02-26T14:44:12.136Z [31merror[39m: VALIDATION ERROR ==> 
+2025-02-26T14:44:21.585Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T14:45:47.018Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T14:46:41.063Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:25:22.958Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-02-26T23:29:24.503Z [31merror[39m: HANDLED ERROR ==>  Session has expired, please log in again.
+2025-02-26T23:30:02.006Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:38:30.471Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:39:04.524Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:39:32.666Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:39:45.816Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:40:19.781Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:40:35.737Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:40:37.458Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:41:39.040Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:41:43.222Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:42:22.323Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:42:40.585Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:45:39.499Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:47:57.864Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:48:09.454Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:48:18.971Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:49:13.819Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:49:30.418Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:50:17.530Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:50:20.774Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:51:13.741Z [31merror[39m: Internal Error -->  Operation `users.findOne()` buffering timed out after 10000ms
+2025-02-26T23:54:46.664Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:54:53.297Z [31merror[39m: Internal Error -->  Project validation failed: userId: Path `userId` is required.
+2025-02-26T23:59:55.450Z [31merror[39m: HANDLED ERROR ==>  Project with this title already exists
+2025-02-27T00:00:03.370Z [31merror[39m: HANDLED ERROR ==>  Project with this title already exists
+2025-02-27T00:02:48.473Z [31merror[39m: HANDLED ERROR ==>  Project with this title already exists
+2025-02-27T00:05:19.277Z [31merror[39m: Internal Error -->  Operation `users.findOne()` buffering timed out after 10000ms
+2025-02-27T00:11:13.828Z [31merror[39m: HANDLED ERROR ==>  Project with this title already exists
+2025-02-27T00:11:19.057Z [31merror[39m: HANDLED ERROR ==>  Project with this title already exists
+2025-02-27T00:11:20.898Z [31merror[39m: HANDLED ERROR ==>  Project with this title already exists
+2025-02-27T00:11:23.050Z [31merror[39m: HANDLED ERROR ==>  Project with this title already exists
+2025-02-27T00:12:51.090Z [31merror[39m: HANDLED ERROR ==>  Project with this title already exists
+2025-02-27T00:30:03.214Z [31merror[39m: Error connecting to MongoDB: querySrv ECONNREFUSED _mongodb._tcp.cluster0.ie7en.mongodb.net
+2025-02-27T01:25:35.803Z [31merror[39m: HANDLED ERROR ==>  Project with this title already exists
+2025-02-27T01:30:06.779Z [31merror[39m: HANDLED ERROR ==>  Session has expired, please log in again.
+2025-02-27T01:30:11.402Z [31merror[39m: HANDLED ERROR ==>  Session has expired, please log in again.
+2025-02-27T01:30:12.984Z [31merror[39m: HANDLED ERROR ==>  Session has expired, please log in again.
+2025-02-27T01:30:38.530Z [31merror[39m: HANDLED ERROR ==>  Session has expired, please log in again.
+2025-02-27T01:41:41.433Z [31merror[39m: HANDLED ERROR ==>  Not authenticated. Session does not exist
+2025-02-27T01:46:46.044Z [31merror[39m: VALIDATION ERROR ==> 
+2025-02-27T02:06:35.363Z [31merror[39m: VALIDATION ERROR ==> 
+2025-02-27T02:08:56.599Z [31merror[39m: HANDLED ERROR ==>  Not authenticated. Session does not exist
+2025-02-27T02:18:11.875Z [31merror[39m: HANDLED ERROR ==>  Not authenticated. Session does not exist
+2025-02-27T02:18:13.792Z [31merror[39m: HANDLED ERROR ==>  Not authenticated. Session does not exist
+2025-02-27T02:18:14.960Z [31merror[39m: HANDLED ERROR ==>  Not authenticated. Session does not exist
+2025-02-27T02:18:28.698Z [31merror[39m: HANDLED ERROR ==>  This Project does not exist
+2025-02-27T02:18:50.177Z [31merror[39m: HANDLED ERROR ==>  This Project does not exist
+2025-02-27T02:18:52.260Z [31merror[39m: HANDLED ERROR ==>  This Project does not exist
+2025-02-27T02:18:53.776Z [31merror[39m: HANDLED ERROR ==>  This Project does not exist
+2025-02-27T02:23:55.374Z [31merror[39m: Internal Error -->  Cast to ObjectId failed for value "{ ProjectId: undefined }" (type Object) at path "_id" for model "Project"
+2025-02-27T02:30:12.936Z [31merror[39m: Internal Error -->  Cast to ObjectId failed for value "{ ProjectId: new ObjectId('67bfaa8d41982e10d5cadf19') }" (type Object) at path "_id" for model "Project"
+2025-02-27T02:30:14.481Z [31merror[39m: Internal Error -->  Cast to ObjectId failed for value "{ ProjectId: new ObjectId('67bfaa8d41982e10d5cadf19') }" (type Object) at path "_id" for model "Project"
+2025-02-27T02:30:45.173Z [31merror[39m: Internal Error -->  Cast to ObjectId failed for value "{ ProjectId: new ObjectId('67bfaa8d41982e10d5cadf19') }" (type Object) at path "_id" for model "Project"
+2025-02-27T02:31:20.213Z [31merror[39m: Internal Error -->  Cast to ObjectId failed for value "{ ProjectId: new ObjectId('67bfaa8d41982e10d5cadf19') }" (type Object) at path "_id" for model "Project"
+2025-02-27T02:32:56.302Z [31merror[39m: Internal Error -->  Cast to ObjectId failed for value "{ ProjectId: new ObjectId('67bfaa8d41982e10d5cadf19') }" (type Object) at path "_id" for model "Project"
