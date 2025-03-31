@@ -1,7 +1,7 @@
 import { Schema } from 'mongoose';
 export interface CreateDocumentAttributes {
-  projectId: Schema.Types.ObjectId;
-  userId: Schema.Types.ObjectId;
+  projectId: string;
+  userId: string;
   title: string;
 }
 export interface UpdateDocumentAttributes {

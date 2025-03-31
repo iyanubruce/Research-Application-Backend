@@ -15,7 +15,6 @@ export const createProject = async (project: Partial<ProjectAttributes>, session
 
 export const findProjectByTitleAndId = async (title: string, _id: string) => {
   const project = await Project.findOne({ userId: _id, title }).lean();
-  console.log(project);
   return project;
 };
 
@@ -38,7 +37,7 @@ export const findAllProjects = async (userId: string) => {
   return projects;
 };
 
-export const findAndDeleteProject = async (ProjectId: string) => {
-  await Project.findByIdAndDelete({ ProjectId });
+export const findAndDeleteProject = async (id: string) => {
+  await Project.findByIdAndDelete(id);
   return;
 };

@@ -5,7 +5,8 @@ export const createDocumentSchema = celebrate(
   {
     [Segments.BODY]: Joi.object()
       .keys({
-        title: string.required()
+        title: string.required(),
+        projectId: string.required()
       })
       .required()
   },

@@ -1592,3 +1592,232 @@
 2025-02-27T02:31:18.326Z [32minfo[39m: Connected to MongoDB
 2025-02-27T02:31:20.213Z [31merror[39m: Internal Error -->  Cast to ObjectId failed for value "{ ProjectId: new ObjectId('67bfaa8d41982e10d5cadf19') }" (type Object) at path "_id" for model "Project"
 2025-02-27T02:32:56.302Z [31merror[39m: Internal Error -->  Cast to ObjectId failed for value "{ ProjectId: new ObjectId('67bfaa8d41982e10d5cadf19') }" (type Object) at path "_id" for model "Project"
+2025-02-28T00:29:20.276Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T12:53:02.664Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T12:53:02.729Z [32minfo[39m: Server listening on port 3500
+2025-03-31T12:53:02.743Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T12:53:02.750Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T12:53:05.144Z [32minfo[39m: Connected to MongoDB
+2025-03-31T12:56:23.792Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T12:56:24.046Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T12:56:24.065Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T12:56:26.157Z [32minfo[39m: Connected to MongoDB
+2025-03-31T12:56:26.160Z [32minfo[39m: Server started on port 3500
+2025-03-31T12:56:26.162Z [32minfo[39m: Server listening on port 3500
+2025-03-31T12:57:04.077Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T12:57:04.141Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T12:57:04.159Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T12:57:07.225Z [32minfo[39m: Connected to MongoDB
+2025-03-31T12:57:07.227Z [32minfo[39m: Server listening on port 3500
+2025-03-31T13:02:41.244Z [32minfo[39m: Client IP: ::1
+2025-03-31T13:03:08.829Z [31merror[39m: HANDLED ERROR ==>  Project with this title already exists
+2025-03-31T13:03:40.537Z [31merror[39m: Internal Error -->  Cast to ObjectId failed for value "{ ProjectId: new ObjectId('67ea9293714c926af0f75e2e') }" (type Object) at path "_id" for model "Project"
+2025-03-31T13:03:48.787Z [31merror[39m: Internal Error -->  Cast to ObjectId failed for value "{ ProjectId: new ObjectId('67ea9293714c926af0f75e2e') }" (type Object) at path "_id" for model "Project"
+2025-03-31T13:07:58.814Z [31merror[39m: Internal Error -->  Cast to ObjectId failed for value "{ ProjectId: new ObjectId('67ea9293714c926af0f75e2e') }" (type Object) at path "_id" for model "Project"
+2025-03-31T13:08:36.310Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T13:08:36.360Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T13:08:36.365Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T13:08:39.300Z [32minfo[39m: Connected to MongoDB
+2025-03-31T13:08:39.304Z [32minfo[39m: Server listening on port 3500
+2025-03-31T13:09:12.887Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T13:09:12.927Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T13:09:12.933Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T13:09:16.472Z [32minfo[39m: Connected to MongoDB
+2025-03-31T13:09:16.501Z [32minfo[39m: Server listening on port 3500
+2025-03-31T13:09:26.524Z [31merror[39m: Internal Error -->  Cast to ObjectId failed for value "{ ProjectId: new ObjectId('67ea9293714c926af0f75e2e') }" (type Object) at path "_id" for model "Project"
+2025-03-31T13:10:42.273Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T13:10:42.456Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T13:10:42.466Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T13:10:52.576Z [32minfo[39m: Connected to MongoDB
+2025-03-31T13:10:52.579Z [32minfo[39m: Server listening on port 3500
+2025-03-31T13:10:57.691Z [31merror[39m: Internal Error -->  Cast to ObjectId failed for value "{ ProjectId: new ObjectId('67ea9293714c926af0f75e2e') }" (type Object) at path "_id" for model "Project"
+2025-03-31T13:11:49.427Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T13:11:49.674Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T13:11:49.723Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T13:11:54.424Z [32minfo[39m: Connected to MongoDB
+2025-03-31T13:11:54.428Z [32minfo[39m: Server listening on port 3500
+2025-03-31T13:12:31.219Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T13:12:31.813Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T13:12:31.899Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T13:12:46.530Z [32minfo[39m: Connected to MongoDB
+2025-03-31T13:12:46.533Z [32minfo[39m: Server listening on port 3500
+2025-03-31T13:13:08.279Z [31merror[39m: Internal Error -->  Cast to ObjectId failed for value "{ ProjectId: new ObjectId('67ea9293714c926af0f75e2e') }" (type Object) at path "_id" for model "Project"
+2025-03-31T13:13:45.522Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T13:13:45.767Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T13:13:45.856Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T13:13:52.207Z [32minfo[39m: Connected to MongoDB
+2025-03-31T13:13:52.211Z [32minfo[39m: Server listening on port 3500
+2025-03-31T13:14:11.010Z [31merror[39m: Internal Error -->  Cast to ObjectId failed for value "{ ProjectId: new ObjectId('67ea9293714c926af0f75e2e') }" (type Object) at path "_id" for model "Project"
+2025-03-31T13:14:20.631Z [31merror[39m: Internal Error -->  Cast to ObjectId failed for value "{ ProjectId: new ObjectId('67ea9293714c926af0f75e2e') }" (type Object) at path "_id" for model "Project"
+2025-03-31T14:00:19.260Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T14:00:19.541Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T14:00:19.575Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T14:00:22.411Z [32minfo[39m: Connected to MongoDB
+2025-03-31T14:00:22.415Z [32minfo[39m: Server listening on port 3500
+2025-03-31T14:01:36.185Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T14:01:36.238Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T14:01:36.244Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T14:01:38.308Z [32minfo[39m: Connected to MongoDB
+2025-03-31T14:01:38.311Z [32minfo[39m: Server listening on port 3500
+2025-03-31T14:01:42.928Z [31merror[39m: Internal Error -->  Cast to ObjectId failed for value "{ id: new ObjectId('67ea9293714c926af0f75e2e') }" (type Object) at path "_id" for model "Project"
+2025-03-31T14:03:20.829Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T14:03:20.876Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T14:03:20.882Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T14:03:22.993Z [32minfo[39m: Connected to MongoDB
+2025-03-31T14:03:22.997Z [32minfo[39m: Server listening on port 3500
+2025-03-31T14:03:27.431Z [31merror[39m: Internal Error -->  Cast to ObjectId failed for value "{ id: '67ea9293714c926af0f75e2e' }" (type Object) at path "_id" for model "Project"
+2025-03-31T14:03:29.539Z [31merror[39m: Internal Error -->  Cast to ObjectId failed for value "{ id: '67ea9293714c926af0f75e2e' }" (type Object) at path "_id" for model "Project"
+2025-03-31T14:04:52.700Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T14:04:52.837Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T14:04:52.846Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T14:04:55.186Z [32minfo[39m: Connected to MongoDB
+2025-03-31T14:04:55.189Z [32minfo[39m: Server listening on port 3500
+2025-03-31T14:30:47.465Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T14:30:47.601Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T14:30:47.606Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T14:30:50.335Z [32minfo[39m: Connected to MongoDB
+2025-03-31T14:30:50.338Z [32minfo[39m: Server listening on port 3500
+2025-03-31T14:32:14.030Z [31merror[39m: HANDLED ERROR ==>  Not authenticated. Session does not exist
+2025-03-31T14:32:35.832Z [31merror[39m: VALIDATION ERROR ==> 
+2025-03-31T14:39:53.784Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T14:39:53.879Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T14:39:53.900Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T14:39:56.471Z [32minfo[39m: Connected to MongoDB
+2025-03-31T14:39:56.475Z [32minfo[39m: Server listening on port 3500
+2025-03-31T14:40:07.603Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T14:40:07.692Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T14:40:07.703Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T14:40:09.986Z [32minfo[39m: Connected to MongoDB
+2025-03-31T14:40:09.989Z [32minfo[39m: Server listening on port 3500
+2025-03-31T14:40:23.726Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T14:40:23.780Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T14:40:23.784Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T14:40:25.966Z [32minfo[39m: Connected to MongoDB
+2025-03-31T14:40:25.969Z [32minfo[39m: Server listening on port 3500
+2025-03-31T18:23:25.068Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T18:23:25.103Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T18:23:25.107Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T18:23:57.677Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-03-31T18:32:19.076Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T18:32:19.318Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T18:32:19.323Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T19:39:01.415Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T19:39:01.459Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T19:39:01.467Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T19:39:33.992Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-03-31T19:44:00.684Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T19:44:00.717Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T19:44:00.721Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T19:44:08.103Z [32minfo[39m: Connected to MongoDB
+2025-03-31T19:44:08.106Z [32minfo[39m: Server listening on port 3500
+2025-03-31T19:44:13.568Z [31merror[39m: HANDLED ERROR ==>  Session has expired, please log in again.
+2025-03-31T19:44:29.165Z [32minfo[39m: Client IP: ::1
+2025-03-31T19:44:56.542Z [31merror[39m: VALIDATION ERROR ==> 
+2025-03-31T19:45:28.524Z [31merror[39m: Internal Error -->  Document validation failed: content: Path `content` is required., status: Path `status` is required.
+2025-03-31T22:16:35.705Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T22:16:35.754Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:35.813Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:35.918Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:36.071Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:36.273Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:36.526Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:36.832Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:37.184Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:37.586Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:38.039Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:38.542Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:39.095Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:39.702Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:40.355Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:41.058Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:41.811Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:42.613Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:43.466Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:44.369Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:45.322Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:46.323Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:47.377Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:48.478Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:49.630Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:50.832Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:52.084Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:53.387Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:54.741Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:56.143Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:57.596Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:16:59.100Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:17:00.654Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:17:02.256Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:17:03.909Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:17:05.612Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:17:07.364Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:17:09.167Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:17:11.020Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:17:12.924Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:17:14.920Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:17:16.922Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:17:18.925Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:17:20.928Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:17:22.929Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:17:23.549Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-03-31T22:23:16.902Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T22:23:16.947Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:23:17.011Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:23:17.114Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:23:17.276Z [32minfo[39m: [REDIS CONNECTION ERROR] ==> Error: connect ECONNREFUSED 127.0.0.1:6379
+2025-03-31T22:23:17.480Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T22:23:17.484Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T22:23:47.734Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-03-31T22:24:43.219Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T22:24:43.270Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T22:24:43.337Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T22:25:03.616Z [32minfo[39m: Connected to MongoDB
+2025-03-31T22:25:03.620Z [32minfo[39m: Server listening on port 3500
+2025-03-31T22:25:23.310Z [31merror[39m: HANDLED ERROR ==>  Session has expired, please log in again.
+2025-03-31T22:25:35.676Z [32minfo[39m: Client IP: ::1
+2025-03-31T22:27:04.367Z [31merror[39m: Internal Error -->  Document validation failed: content: Path `content` is required., status: Path `status` is required.
+2025-03-31T22:29:25.747Z [31merror[39m: Internal Error -->  Document validation failed: content: Path `content` is required., status: Path `status` is required.
+2025-03-31T22:29:27.452Z [31merror[39m: Internal Error -->  Document validation failed: content: Path `content` is required., status: Path `status` is required.
+2025-03-31T22:30:27.209Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T22:30:27.315Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T22:30:27.319Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T22:30:30.371Z [32minfo[39m: Connected to MongoDB
+2025-03-31T22:30:30.375Z [32minfo[39m: Server listening on port 3500
+2025-03-31T22:31:35.869Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T22:31:35.903Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T22:31:35.907Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T22:31:38.299Z [32minfo[39m: Connected to MongoDB
+2025-03-31T22:31:38.303Z [32minfo[39m: Server listening on port 3500
+2025-03-31T22:31:44.381Z [31merror[39m: Internal Error -->  Document validation failed: content: Path `content` is required., status: Path `status` is required.
+2025-03-31T22:31:46.319Z [31merror[39m: Internal Error -->  Document validation failed: content: Path `content` is required., status: Path `status` is required.
+2025-03-31T22:31:54.779Z [31merror[39m: Internal Error -->  Document validation failed: content: Path `content` is required., status: Path `status` is required.
+2025-03-31T22:32:20.634Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T22:32:20.667Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T22:32:20.670Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T22:32:22.738Z [32minfo[39m: Connected to MongoDB
+2025-03-31T22:32:22.741Z [32minfo[39m: Server listening on port 3500
+2025-03-31T22:32:34.922Z [31merror[39m: Internal Error -->  Document validation failed: content: Path `content` is required., status: Path `status` is required.
+2025-03-31T22:32:36.622Z [31merror[39m: Internal Error -->  Document validation failed: content: Path `content` is required., status: Path `status` is required.
+2025-03-31T22:33:33.194Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T22:33:33.238Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T22:33:33.245Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T22:33:35.932Z [32minfo[39m: Connected to MongoDB
+2025-03-31T22:33:35.935Z [32minfo[39m: Server listening on port 3500
+2025-03-31T22:33:45.772Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T22:33:45.805Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T22:33:45.808Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T22:33:48.001Z [32minfo[39m: Connected to MongoDB
+2025-03-31T22:33:48.003Z [32minfo[39m: Server listening on port 3500
+2025-03-31T22:33:59.883Z [31merror[39m: Internal Error -->  Document validation failed: content: Path `content` is required., status: Path `status` is required.
+2025-03-31T22:34:25.551Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T22:34:25.583Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T22:34:25.586Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T22:34:27.802Z [32minfo[39m: Connected to MongoDB
+2025-03-31T22:34:27.804Z [32minfo[39m: Server listening on port 3500
+2025-03-31T22:34:31.542Z [31merror[39m: Internal Error -->  Document validation failed: content: Path `content` is required., status: Path `status` is required.
+2025-03-31T22:35:42.490Z [32minfo[39m: CREATING REDIS CLIENT
+2025-03-31T22:35:42.522Z [32minfo[39m: REDIS CLIENT Connected
+2025-03-31T22:35:42.526Z [32minfo[39m: REDIS CLIENT Authenticated
+2025-03-31T22:35:45.186Z [32minfo[39m: Connected to MongoDB
+2025-03-31T22:35:45.200Z [32minfo[39m: Server listening on port 3500
+2025-03-31T22:35:49.554Z [31merror[39m: Internal Error -->  Document validation failed: content: Path `content` is required.

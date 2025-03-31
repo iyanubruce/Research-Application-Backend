@@ -83,8 +83,10 @@ function onListening(): void {
 server.on('error', onError);
 server.on('listening', onListening);
 
-connectDB();
+async function start() {
+  await connectDB();
+  server.listen(port);
+}
 
-server.listen(port);
-
+start();
 export default server;

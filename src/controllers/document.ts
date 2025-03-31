@@ -1,11 +1,21 @@
 import { UserAttributes } from 'src/database/models/user';
-import { createNewDocument, updateDocumentTitleById, deleteDocumentById } from '../database/repositories/document';
+import {
+  createNewDocument,
+  updateDocumentTitleById,
+  deleteDocumentById,
+  findDocumentByTitle
+} from '../database/repositories/document';
 import { CreateDocumentAttributes, UpdateDocumentAttributes } from '../interfaces/document';
-import { Schema } from 'mongoose';
+import { BadRequestError } from '../errors';
+export const createDocument = async (validatedData: CreateDocumentAttributes, user: UserAttributes) => {
+  const { projectId, title } = validatedData;
 
-export const createDocument = async (validatedData: CreateDocumentAttributes) => {
-  const { projectId, title, userId } = validatedData;
-  const newDocument = await createNewDocument({ projectId, title, userId });
+  const existingDocument = await findDocumentByTitle(title, user._id);
+  if (existingDocument) {
+    throw new BadRequestError('Document with the same title already exists');
+  }
+
+  const newDocument = await createNewDocument({ projectId, title, userId: user._id });
   return newDocument;
 };
 export const updateDocument = async (validatedData: UpdateDocumentAttributes) => {

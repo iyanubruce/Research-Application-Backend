@@ -35,5 +35,6 @@ export const deleteProject = async (id: string): Promise<void> => {
   if (!projectExits) {
     throw new BadRequestError('This Project does not exist');
   }
+
   await findAndDeleteProject(projectExits._id);
 };

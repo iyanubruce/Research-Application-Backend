@@ -5,8 +5,8 @@ export interface DocumentAttributes extends MongooseDocument {
   projectId: Schema.Types.ObjectId;
   userId: Schema.Types.ObjectId;
   title: string;
-  content: string;
-  status: string;
+  content?: string;
+  status?: string;
   isDeleted?: boolean;
 }
 
