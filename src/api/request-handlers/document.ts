@@ -13,7 +13,7 @@ export const createDocument: RequestHandler = async (req, res, next) => {
 
 export const updateDocument: RequestHandler = async (req, res, next) => {
   try {
-    await documentController.updateDocument(req.body);
+    await documentController.updateDocument(req.body.title, req.params.id, res.locals.user._id);
     res.json(utilities.itemResponse(null, 'document updated'));
   } catch (error) {
     next(error);
@@ -22,7 +22,7 @@ export const updateDocument: RequestHandler = async (req, res, next) => {
 
 export const deleteDocument: RequestHandler = async (req, res, next) => {
   try {
-    await documentController.deleteDocument(req.params.id);
+    await documentController.deleteDocument(req.params.id, res.locals.user._id);
     res.json(utilities.itemResponse(null, 'document deleted'));
   } catch (error) {
     next(error);

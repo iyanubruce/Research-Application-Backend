@@ -1,5 +1,5 @@
 import { CreateProjectInput, DeleteProjectInput } from '../interfaces/project';
-import { UserAttributes } from 'src/database/models/user';
+import { UserAttributes } from '../database/models/user';
 import {
   createProject as createNewProject,
   updateProject as projectUpdate,
@@ -9,6 +9,7 @@ import {
   findAndDeleteProject
 } from '../database/repositories/project';
 import { BadRequestError } from '../errors';
+import { findDocumentByProjectId } from '../database/repositories/document';
 
 export const createProject = async (validatedData: CreateProjectInput, user: UserAttributes) => {
   const ProjectExist = await findProjectByTitleAndId(validatedData.title, user._id);
@@ -37,4 +38,13 @@ export const deleteProject = async (id: string): Promise<void> => {
   }
 
   await findAndDeleteProject(projectExits._id);
+};
+
+export const getProject = async (id: string) => {
+  const project = await findProjectById(id);
+  if (!project) {
+    throw new BadRequestError('This Project does not exist');
+  }
+  const documents = await findDocumentByProjectId(id);
+  return { project, documents };
 };

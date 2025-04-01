@@ -35,8 +35,8 @@ const documentSchema = new Schema<DocumentAttributes>(
       }
     },
     title: { type: String, required: true },
-    content: { type: String, required: true, default: '' },
-    status: { type: String, required: true, default: '' },
+    content: { type: String, required: true, default: 'draft' },
+    status: { type: String, required: true, default: 'draft' },
     isDeleted: { type: Boolean, required: true, default: false }
   },
   {

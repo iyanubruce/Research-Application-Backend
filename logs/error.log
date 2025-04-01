@@ -256,3 +256,15 @@
 2025-03-31T22:33:59.883Z [31merror[39m: Internal Error -->  Document validation failed: content: Path `content` is required., status: Path `status` is required.
 2025-03-31T22:34:31.542Z [31merror[39m: Internal Error -->  Document validation failed: content: Path `content` is required., status: Path `status` is required.
 2025-03-31T22:35:49.554Z [31merror[39m: Internal Error -->  Document validation failed: content: Path `content` is required.
+2025-04-01T10:43:17.886Z [31merror[39m: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-04-01T10:43:41.928Z [31merror[39m: HANDLED ERROR ==>  Session has expired, please log in again.
+2025-04-01T10:44:14.266Z [31merror[39m: Internal Error -->  Document validation failed: content: Path `content` is required.
+2025-04-01T11:02:13.427Z [31merror[39m: Internal Error -->  Document validation failed: content: Path `content` is required.
+2025-04-01T11:02:23.297Z [31merror[39m: Internal Error -->  Document validation failed: content: Path `content` is required.
+2025-04-01T11:09:02.312Z [31merror[39m: HANDLED ERROR ==>  Document with the same title already exists
+2025-04-01T12:11:03.612Z [31merror[39m: VALIDATION ERROR ==> 
+2025-04-01T12:12:25.463Z [31merror[39m: HANDLED ERROR ==>  You are not authorized to update this document
+2025-04-01T12:13:57.586Z [31merror[39m: HANDLED ERROR ==>  You are not authorized to update this document
+2025-04-01T12:24:45.574Z [31merror[39m: HANDLED ERROR ==>  Document with the same title already exists
+2025-04-01T12:25:28.908Z [31merror[39m: HANDLED ERROR ==>  Not authenticated. Session does not exist
+2025-04-01T12:29:59.030Z [31merror[39m: HANDLED ERROR ==>  This Project does not exist

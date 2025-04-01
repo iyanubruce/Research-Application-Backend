@@ -4,8 +4,7 @@ import { ClientSession, Schema } from 'mongoose';
 
 export const createNewDocument = async (document: Partial<CreateDocumentAttributes>, session?: ClientSession) => {
   const { userId, title, projectId } = document;
-  const newDocument = new Document({ userId, title, projectId, content: '', status: 'draft' });
-  console.log(newDocument);
+  const newDocument = new Document({ userId, title, projectId });
   return newDocument.save(session ? { session } : {});
 };
 export const findDocumentById = async (_id: string) => {
@@ -16,7 +15,7 @@ export const findDocumentByTitle = async (title: string, userId: string) => {
   const document = await Document.findOne({ title, userId }).lean();
   return document;
 };
-export const updateDocumentTitleById = async (_id: Schema.Types.ObjectId, title: string, session?: ClientSession) => {
+export const updateDocumentTitleById = async (_id: string, title: string, session?: ClientSession) => {
   const updatedDocument = await Document.findByIdAndUpdate(_id, { title }, session ? { session } : {});
   return updatedDocument;
 };
@@ -24,4 +23,9 @@ export const updateDocumentTitleById = async (_id: Schema.Types.ObjectId, title:
 export const deleteDocumentById = async (id: string, session?: ClientSession) => {
   await Document.findByIdAndDelete(id, session ? { session } : {});
   return;
+};
+
+export const findDocumentByProjectId = async (projectId: string, session?: ClientSession) => {
+  const documents = await Document.find({ projectId }, session ? { session } : {}).lean();
+  return documents;
 };

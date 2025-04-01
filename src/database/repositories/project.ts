@@ -1,4 +1,5 @@
 import Project, { ProjectAttributes } from '../models/project';
+import Document from '../models/document';
 import { ClientSession, Schema } from 'mongoose';
 
 export const createProject = async (project: Partial<ProjectAttributes>, session?: ClientSession) => {
@@ -37,7 +38,8 @@ export const findAllProjects = async (userId: string) => {
   return projects;
 };
 
-export const findAndDeleteProject = async (id: string) => {
-  await Project.findByIdAndDelete(id);
+export const findAndDeleteProject = async (id: string, session?: ClientSession) => {
+  await Project.findByIdAndDelete(id, session ? { session } : {});
+  await Document.deleteMany({ projectId: id }, session ? { session } : {});
   return;
 };

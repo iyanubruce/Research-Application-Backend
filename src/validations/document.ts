@@ -17,6 +17,11 @@ export const createDocumentSchema = celebrate(
 
 export const updateDocumentSchema = celebrate(
   {
+    [Segments.PARAMS]: Joi.object()
+      .keys({
+        id: string.required()
+      })
+      .required(),
     [Segments.BODY]: Joi.object()
       .keys({
         title: string.required()

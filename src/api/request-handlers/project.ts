@@ -42,3 +42,13 @@ export const deleteProject: RequestHandler = async (req, res, next) => {
     next(error);
   }
 };
+
+export const getProject: RequestHandler = async (req, res, next) => {
+  try {
+    const project = await projectController.getProject(req.params.id);
+    res.json(utilities.itemResponse(project, 'Project'));
+    return;
+  } catch (error) {
+    next(error);
+  }
+};

@@ -32,3 +32,25 @@ export const updateProjectSchema = celebrate(
     abortEarly: false
   }
 );
+
+export const deleteProjectSchema = celebrate(
+  {
+    [Segments.PARAMS]: Joi.object()
+      .keys({
+        id: string.required()
+      })
+      .required()
+  },
+  { abortEarly: false }
+);
+
+export const getProjectSchema = celebrate(
+  {
+    [Segments.PARAMS]: Joi.object()
+      .keys({
+        id: string.required()
+      })
+      .required()
+  },
+  { abortEarly: false }
+);

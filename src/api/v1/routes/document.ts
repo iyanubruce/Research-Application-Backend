@@ -8,7 +8,7 @@ const documentRouter = Router();
 documentRouter.use(authenticate());
 
 documentRouter.post('/create', createDocumentSchema, documentRequestHandler.createDocument);
-documentRouter.post('/update', updateDocumentSchema, documentRequestHandler.updateDocument);
-documentRouter.post('/delete', deleteDocumentSchema, documentRequestHandler.deleteDocument);
+documentRouter.post('/update/:id', updateDocumentSchema, documentRequestHandler.updateDocument);
+documentRouter.delete('/delete/:id', deleteDocumentSchema, documentRequestHandler.deleteDocument);
 
 export default documentRouter;
